@@ -1,0 +1,9 @@
+env=dev
+grp=az400-$env
+loc=westeurope
+app=foodui-$env
+repo="https://github.com/alexander-kastil/az-400"
+
+az group create -n $grp -l $loc
+
+az staticwebapp create -n $app -g $grp -s $repo -l $loc -b master --app-location "src/web/food-shop/" --output-location "dist/food-shop-ui" --login-with-github

@@ -1,5 +1,7 @@
 # AZ-2008 DevOps foundations: The core principles and practices
 
+[DevOps foundations: The core principles and practices](https://learn.microsoft.com/en-us/training/paths/devops-foundations-core-principles-practices/)
+
 [Lab 01 - Agile Planning and Management using GitHub](https://microsoftlearning.github.io/AZ-2008_DevOps_Foundations_Core_Principles_Practices/Instructions/Labs/01-agile-planning-management-using-github.html)
 
 [Lab 02 - Implement Flow of Work with GitHub](https://microsoftlearning.github.io/AZ-2008_DevOps_Foundations_Core_Principles_Practices/Instructions/Labs/02-implement-manage-repositories-using-github.html)
