@@ -39,7 +39,7 @@ jobs:
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '6.0.x'
+          dotnet-version: '9.0.x'
 
       - name: Build with dotnet
         run: dotnet build ${{ github.workspace }}/src/catalog-api/api/catalog-api.csproj --configuration Release
